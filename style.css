@@ -1,0 +1,44 @@
+
+body{
+    font-family: 'NotoSans', 'NotoSerif', 'Matterhorn', 'Helvetica', 'sans-serif';
+} 
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: wheat !important;
+}
+.carousel-dark .carousel-control-next-icon,
+.carousel-dark .carousel-control-prev-icon{
+    filter: none !important;
+}
+
+.card-body a{
+    text-align: center;
+    color: black;
+    text-decoration: none !important;
+}
+.card{
+    background-color: transparent !important;
+    border: 0px !important;
+}
+#build:hover{
+    transition: 0.1s ease-out !important;
+}
+.content{
+    display: flex;
+    margin-left: 20px;
+}
+.footmenu{
+    display: flex;
+    justify-content: flex-end;
+}
+.footmenu a{
+    color: rgb(15, 15, 15);
+  text-decoration: none;
+  margin-top: 9px;
+  margin-left: 18px;
+  font-weight: 600;
+}
+/* hovering */
+.imagehover:hover{
+    transform: scale(1.1);
+}
